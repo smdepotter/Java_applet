@@ -95,7 +95,7 @@ public class ReunionRegistration extends JFrame {
         panel11 = new JPanel(new FlowLayout(0, 0, FlowLayout.LEADING));
         panel12 = new JPanel(new FlowLayout(0, 0, FlowLayout.LEADING));
 
-        panel1.setLayout(new GridLayout(6, 2, 15, 0));
+        panel1.setLayout(new GridLayout(6, 2, 15,0));
 
         firstNameLabel = new JLabel("First Name:");
         firstNameField = new JTextField();
@@ -121,6 +121,7 @@ public class ReunionRegistration extends JFrame {
         cityLabel.setHorizontalAlignment(JLabel.RIGHT);
         stateLabel.setHorizontalAlignment(JLabel.RIGHT);
         zipLabel.setHorizontalAlignment(JLabel.RIGHT);
+
 
 
         firstNameField.setPreferredSize(new Dimension(125, 24));
